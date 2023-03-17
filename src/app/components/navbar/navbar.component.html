@@ -1,0 +1,112 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">{{Title}}</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/home" title="Anasayfa"><i class="fa fa-home" aria-hidden="true"></i> Ana Sayfa
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">İçeriklerimiz </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> Hakkımızda </a>
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="assets/flags/turkey.png" style="width: 20px;height:20px;">
+        </button>
+        
+       
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel"> Ülke/Site </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <div class="container">
+                    
+                      <div class="form-check">
+                        <div class="float-end">
+                          <input class="form-check-input" type="radio" value="turkish" id="turkishRadio">
+                        </div> 
+                        <label class="form-check-label" for="turkishRadio">
+                          <img src="assets/flags/turkey.png" style="width: 24px; height: 24px;">
+                          Türkçe
+                        </label>
+                        <small style="position: relative;
+                        top:3px;"> CityGuide.com</small>
+                      </div>
+                      <div class="form-check">
+                        <div class="float-end">
+                          <input class="form-check-input" type="radio" value="german" id="germanRadio">
+                        </div> 
+                        <label class="form-check-label" for="germanRadio">
+                          <img src="assets/flags/germany.png" style="width: 24px; height: 24px;">
+                          Almanca
+                        </label>
+                        <small style="position: relative;
+                        top:3px;"> Stadtführer.com</small>
+                      </div>
+                      <div class="form-check">
+                        <div class="float-end">
+                          <input class="form-check-input" type="radio" value="french" id="frenchRadio">
+                        </div> 
+                        <label class="form-check-label" for="frenchRadio">
+                          <img src="assets/flags/france.png" style="width: 24px; height: 24px;">
+                          Fransızca
+                        </label>
+                        <small style="position: relative;
+                        top:3px;"> Guide de la ville.com</small>
+                      </div>
+                      <div class="form-check">
+                        <div class="float-end">
+                          <input class="form-check-input" type="radio" value="russian" id="russianRadio">
+                        </div> 
+                        <label class="form-check-label" for="russianRadio">
+                          <img src="assets/flags/russia.png" style="width: 24px; height: 24px;">
+                          Rusça
+                        </label>
+                        <small style="position: relative;
+                        top:3px;"> Путеводитель по городу.com </small>
+                      </div>
+                   
+                  </div> 
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> İptal </button>
+                <button type="button" class="btn btn-primary">Uygula </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <button class="btn btn-secondary my-2 my-sm-0 me-1" routerLink="/login">
+
+          <i class="fa fa-sign-in" aria-hidden="true"></i>
+          Giriş Yap
+        </button>
+        <button class="btn btn-secondary my-2 my-sm-0 me-1" routerLink="/signup">
+          <i class="fa fa-user" aria-hidden="true"></i>
+          Üye Ol</button>
+          <button type="button" class="btn btn-danger my-2 my-sm-0" routerLink="/login">Çıkış Yap</button>
+
+      </form>
+    </div>
+  </div>
+</nav>
+

@@ -1,0 +1,126 @@
+{
+  "summary": [
+    {
+      "id": 1,
+      "name": "Ankara",
+      "description": "Ankara, Türkiye'nin başkenti ve İstanbul'dan sonra en kalabalık ikinci ilidir. Nüfusu 2023 yılı itibarıyla 5.782.285 kişidir. Bu nüfus; 25 ilçe ve bu ilçelere bağlı 1425 mahallede yaşamaktadır. İl genelinde nüfus yoğunluğu 215'tir.",
+      "img": "https://cdn.britannica.com/50/198450-050-3554B2AF/Ankara-Turkey.jpg",
+      "dateAdded": "13/02/2023",
+      "username": "Gezgin",
+      "readtime": "15 Dakika"
+    },
+    {
+      "id": 2,
+      "name": "İstanbul",
+      "description": "İstanbul, Türkiye'de Marmara Bölgesi'nin Çatalca-Kocaeli Bölümü'nde yer alan şehir ve Türkiye'nin 81 ilinden biridir. Ülkenin nüfus bakımından en çok göç alan ve en kalabalık ilidir. Ekonomik, tarihî ve sosyo-kültürel açıdan önde gelen şehirlerden biridir.",
+      "img": "https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2018/10/26171002/shutterstock_291252509.jpg",
+      "dateAdded": "10/02/2023",
+      "username": "Mahmut",
+      "readtime": "12 Dakika"
+    },
+    {
+      "id": 3,
+      "name": "Edirne",
+      "description": "Edirne Türkiye'nin Edirne ilinde yer alan şehir ve aynı ilin merkez ilçesi. Marmara Bölgesi'nin Trakya kesiminde, Yunanistan ve Bulgaristan sınırında yer almaktadır. Edirne, 1363'den 1453'e kadar Osmanlı İmparatorluğu'nun başkentiydi. 2020 sayımına göre toplam nüfusu 180.901'dir.",
+      "img": "https://cdn.britannica.com/50/198450-050-3554B2AF/Ankara-Turkey.jpg",
+      "dateAdded": "13/02/2023",
+      "username": "Tekir",
+      "readtime": "17 Dakika"
+    },
+    {
+      "id": 4,
+      "name": "İzmir",
+      "description": "İzmir, Türkiye'de Ege Bölgesi'nde yer alan şehir ve ülkenin 81 ilinden biridir. Ülkenin nüfus bakımından en kalabalık üçüncü şehridir. Ekonomik, tarihi ve sosyo-kültürel açıdan önde gelen şehirlerden biridir. Nüfusu 2022 itibarıyla 4.462.056 kişidir. Yüzölçümü olarak ülkenin yirmi üçüncü büyük ilidir.",
+      "img": "https://izmir.ktb.gov.tr/Resim/68383,konakjpg.png?0",
+      "dateAdded": "16/02/2023",
+      "username": "Septimus",
+      "readtime": "13 Dakika"
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "text": "Sarıyer Gezi Rehberi",
+      "description": "afafafafafafafafafafafafafafafaf",
+      "time": "1 Dakika Önce",
+      "avatar": "assets/avatars/avatarOne.jpg",
+      "author": "Gezgin"
+    },
+    {
+      "id": 2,
+      "text": "Ayasofya'nın Hikâyesi",
+      "description": "afafafafafafafafafafafa",
+      "time": "2 Dakika Önce",
+      "avatar": "assets/avatars/avatarThree.jpg",
+      "author": "Septimus"
+    },
+    {
+      "id": 3,
+      "text": "Pasaport Başvurusunda Yeni Dönem",
+      "description": "afafafafafafafafafafafa",
+      "time": "5 Dakika Önce",
+      "avatar": "assets/avatars/avatarTwo.jpg",
+      "author": "Nalan"
+    },
+    {
+      "id": 4,
+      "text": "Hindistan Mutfağı",
+      "description": "afafafafafafafafafafafa",
+      "time": "7 Dakika Önce",
+      "avatar": "assets/avatars/avatarFour.jpg",
+      "author": "Çok Gezen"
+    },
+    {
+      "id": 5,
+      "text": "İtalyan Mutfağı",
+      "description": "afafafafafafafafafafafa",
+      "time": "10 Dakika Önce",
+      "avatar": "assets/avatars/avatarFive.jpg",
+      "author": "Hande"
+    }
+  ],
+  "list": [
+    {
+      "id": 1,
+      "name": "Gece Hayatını Sevenler Buraya",
+      "text": "Yaz aylarının yaklaşması ile birlikte, tatil planlarını yapanların hoşlanacağı listemize hoş geldiniz.",
+      "img": "https://assets.enuygun.com/media/lib/570x400/uploads/image/4038.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Tadılması gereken 10 Şarap",
+      "text": "2023 yılında HebeleHübele Şarap Derneğinin açıkladığı 10 şarabı sizler için derledik.",
+      "img": "https://static.onecms.io/wp-content/uploads/sites/19/2018/07/13/Getty-Red-Wine_credit-Image-Source-2000.jpg"
+    },
+    {
+      "id": 3,
+      "name": "İstanbul'da gezilmesi gereken 100 yer",
+      "text": "Taşı, toprağı tarih fışkıran medeniyetlerin beşiği İstanbul'da gezmeniz gereken 100 yer",
+      "img": "https://static.nationalgeographic.co.uk/files/styles/image_3200/public/ngt_we_bistanbul_gettyimages-668990458_hr.jpg?w=1600&h=900"
+    },
+    {
+      "id": 4,
+      "name": "Fransa'da gezilmesi gereken 10 yer",
+      "text": "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsun",
+      "img": "https://www.avrupa.info.tr/sites/default/files/styles/standard_page_header/public/2016-08/France%20Paris.jpg?itok=WqeSOXZG"
+    }
+  ],
+  "signupUsers": [
+    {
+      "FirstName": "Ali",
+      "LastName": "Veli",
+      "UserName": "Deneme",
+      "Email": "deneme@gmail.com",
+      "Password": "adminadmin",
+      "id": 1
+    },
+    {
+      "FirstName": "Ali",
+      "LastName": "Veli",
+      "UserName": "Deneme",
+      "Email": "deneme@gmail.com",
+      "Password": "adminadmin",
+      "id": 2
+    }
+  ]
+}

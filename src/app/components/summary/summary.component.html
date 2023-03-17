@@ -1,0 +1,99 @@
+<div class="container mt-3" >
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="height:400px;">
+        <img src="assets/city/ankara.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ankara </h5>
+          <p>lorem ipsum</p>
+        </div>
+      </div>
+      <div class="carousel-item"  style="height:400px;">
+        <img src="assets/city/edirne.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Edirne</h5>
+          <p>lorem ipsum</p>
+        </div>
+      </div>
+      <div class="carousel-item"  style="height:400px;">
+        <img src="assets/city/istanbul.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>İstanbul</h5>
+          <p>Lorem ipsum</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-md-7">
+        <p class="fs-4 text-decoration-underline">Son Eklenenler </p>
+        <div class="row">
+  
+              <div *ngFor="let summary of summaries" class="card ms-4 mt-2" style="width: 18rem;">
+                <img src="{{summary.img}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> {{summary.name}} </h5>
+                  <p class="card-text">{{summary.description | length}}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"> <i class="fa fa-user" aria-hidden="true"></i> Rehber Adı: {{summary.username}}</li>
+                  <li class="list-group-item"> <i class="fa fa-calendar" aria-hidden="true"></i> Eklenme Tarihi: {{summary.dateAdded}} </li>
+                  <li class="list-group-item"> <i class="fa fa-clock-o" aria-hidden="true"></i> Okunma Süresi : {{summary.readtime}}</li>
+                </ul>
+                <div class="card-body text-center" >
+                 <button type="button" class=" btn btn-primary"> 
+                  <a class="text-light text-decoration-none" [routerLink]="['/summaries', summary.name]">Şehir Profili </a>              
+                 </button>
+                </div>
+              </div>
+     </div>
+    </div>
+    <div class="col-md-5">
+      <p class="fs-4 text-decoration-underline"> Son Yazılar</p>
+      <div class="list-group mt-1" *ngFor="let blog of blogs">
+        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+          <div class="d-flex w-100 justify-content-between">
+            <h5 class="mb-1">{{blog.text}}</h5>
+            <img src="{{blog.avatar}}" style="width:20px; height:20px;" class="rounded">
+          </div>
+          <p class="mb-1"> {{blog.description}}</p>
+          <div class="d-flex w-100 justify-content-between">
+            <small>  <i class="fa fa-user" aria-hidden="true"></i> {{blog.author}} </small>
+            <small>{{blog.time}}</small>
+          </div>
+        </a>
+      </div>
+     
+      <div class="row">
+        <p class="fs-4 text-decoration-underline mt-2"> Listeler  </p>
+      <div class="card mt-2 ms-2" style="width: 14rem;" *ngFor="let list of lists">
+        <div class="card-img-overlay">
+          <h5 class="card-title">{{list.text |length}}</h5>
+          
+        </div>
+        <img class="card-img" src="{{list.img}}" alt="Resim Açıklaması">
+        <p class="card-text text-center">{{list.name}}</p>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</div>

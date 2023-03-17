@@ -1,0 +1,23 @@
+.card-img:hover {
+    opacity: 0.5;
+  
+  }
+  
+  .card-img-overlay {
+    opacity: 0;
+    transition: opacity 0.5s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: beige;
+  }
+  
+  .card:hover .card-img-overlay {
+    opacity: 1;
+  }
+
+.card:hover{
+  cursor:pointer;
+  box-shadow: 5px 10px #888888;
+}
